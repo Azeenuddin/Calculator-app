@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bd{
+    border: 1px solid white;
+    box-shadow: inset 5px 5px 10px #fff,
+    inset -5px -5px 10px #fff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+
+}
+.dark-mode .bd{
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 10px black,
+    inset -5px -5px 10px ;   
+}
+
+.dark-mode {
+    background-color: white;
+    border: 1px solid black;
+    
+  }
+.dark-mode .display{
+    border: 2px solid black;
+    box-shadow: inset 5px 5px 10px rgb(250, 3, 3),
+    inset -5px -5px 10px rgb(252, 2, 2);
+}
+.dark-mode #ac{
+background-color:darkorange;
+color: white;
+}
+.dark-mode #equal{
+    background-color: darkgreen;
+    border: black;
+
+}
+.dark-mode .plus{
+    background-color: darkgreen;
+    border: black;
+   
+}
+
+.dark-mode button{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    border:1px black;
+    background-color: black;
+    margin: 5px;
+    color:white;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: inset 1px 1px 3px #fff,
+    inset -1px -1px 2px #fff;
+}
+.dark-mode button:hover{
+    background-color: deeppink;
+    color: black;
+}
+.display{
+    display:flex;
+    justify-content:right;
+    align-items: center;
+    height: 22vh;
+    width: 95%;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 5px;
+    color:darkorange;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius:10px;
+    box-shadow: inset 5px 5px 3px gray,
+    inset -3px -3px 5px gray;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    border: 1px solid white;
+    background-color: black;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: inset 1px 1px 3px #fff,
+    inset -1px -1px 2px #fff;
+}
+#equal{
+    background-color: orangered;
+    color: black;
+    border-radius: 10px;
+}
+#plus{
+    background-color: orangered;
+    color: black;
+}
+#sub{
+    background-color: orangered;
+    color: black;
+}
+#mul{
+    background-color: orangered;
+    color: black;
+}
+#devi{
+    background-color: orangered;
+    color: black;
+}
+#per{
+    background-color: orangered;
+    color: black;
+
+}
+#dell{
+    background-color: black;
+    color: white;
+}
+#numb{
+    background-color: blue;
+    color: white;
+}
+#ac{
+    background-color: rgb(255, 0, 200);
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.b{
+    position: relative;
+    display: flex;
+    top: 40px;
+}
